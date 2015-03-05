@@ -1,0 +1,20 @@
+
+$(document).ready(function() {
+	$("#resultado").click(function() {
+		var resultado = (eval($("#res").val()));
+		$("#res").val(resultado);
+	});
+
+	$("#borrar").click(function() {
+		$("#res").val("");
+	});
+
+	 $(".number").click(function(e){
+         	var pulsado = $(this).attr("id");
+          	$("#res").val($("#res").val() + pulsado); 
+	});
+	 $(".operacion").click(function(e){
+         	var pulsado = $(this).attr("id");
+          	$("#res").val($("#res").val() + pulsado); 
+	});
+});

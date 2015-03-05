@@ -1,0 +1,57 @@
+.container {
+ color: black;
+ font-size: 16px;
+ border: 1px solid rgb(21,11,11);
+ overflow: hidden;
+ margin: 40px 0 0 30px;
+ padding: 20px;
+ width: 440px;
+ z-index: 2;
+ background: #393a45;
+}
+
+#res{
+	border: 1px solid rgb(21,11,11);
+    	width: 400px;
+   	height: 30px;
+    	padding: 20px;
+    	background-color: #A4A4A4;
+}
+
+.number {
+  background: #fcfcfc;
+  background-image: linear-gradient(to bottom, #999099, #212663);
+  border-radius: 2px;
+  outline: none;
+  text-shadow: 1px 1px 3px #666666;
+  font-family: Arial;
+  color: #fcfcfc;
+  font-size: 10px;
+  margin: 5px;
+  padding: 10px 30px 5px 30px;
+
+  
+  
+}
+
+.operacion, .c, .igual{
+background: #e6960c;
+  background-image: linear-gradient(to bottom, #4750ad, #000000);
+  border-radius: 12px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 20px;
+  text-decoration: none;
+	
+}
+.operacion:active, .c:active, .igual:active{
+  background: #000000;
+  background-image: linear-gradient(to bottom, #000000, #4750ad);
+  text-decoration: none;
+}
+.number:active {
+  background: #868dba;
+  background-image: linear-gradient(to bottom, #212663, #999099);
+  text-decoration: none;
+}
